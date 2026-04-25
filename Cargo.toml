@@ -1,0 +1,15 @@
+[package]
+name = "make_pub_for_tests"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[lib]
+proc-macro = true
+
+[dependencies.syn]
+version = "2.0.117"
+features = ["full"]
+
+[dependencies.quote]
+version = "1.0"
