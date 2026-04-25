@@ -3,6 +3,7 @@ name = "make_pub_for_tests"
 version = "0.1.0"
 edition = "2024"
 license = "MIT"
+description = "A macro to make visiblity for testing simple."
 
 [lib]
 proc-macro = true
