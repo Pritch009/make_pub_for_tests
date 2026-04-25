@@ -63,7 +63,7 @@ fn make_all_fields_public(ast_item: &Item, pub_vis: Visibility) -> Result<Item, 
         _ => {
             return Err(Error::new_spanned(
                 ast_item,
-                "unable to affect visibility, ergo this macro not compatible with this item!",
+                "this macro cannot be applied to this item: visibility modification is not supported",
             ));
         }
     }
